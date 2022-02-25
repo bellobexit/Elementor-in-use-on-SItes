@@ -1,0 +1,35 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+
+.page-title-action.hide-if-no-customize,.manage-menus,#nav-menu-header,.menu-settings,.nav-tab{
+  display: none !important;
+}
+
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper {
+    border-bottom: 0px solid #c3c4c7 !important;
+    padding-top: 5px;
+}
+
+.add-post-type-page,.add-post-type-post,.add-category{
+  display: none !important;
+}
+
+.field-css-classes.description.description-thin,.field-xfn.description.description-thin,.field-description.description.description-wide,.field-title-attribute.field-attr-title.description.description-wide,.field-move.hide-if-no-js.description.description-wide
+{
+  display: none !important;
+}
